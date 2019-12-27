@@ -1,0 +1,218 @@
+.container-fluid
+  .row
+    .sidebar.main-accent-bg.tertiary-accent.col-12.col-sm-5.col-md-4.col-lg-3
+      .row
+        .top-card.col-12
+          %img.profile{src: items['/images/dan_gd_sm-500.jpg'].path}
+          %h1 Dan Healy
+          %h2 Full Stack Ruby Developer
+        .bottom-card.col-12
+          %ul.contact.fa-ul
+            %li.email
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fas.fa-at
+              %a{href: "mailto:dan@beyondludus.com"} dan@beyondludus.com
+            %li.linkedin
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fab.fa-linkedin
+              %a{href: "https://www.linkedin.com/in/beyondludus/", target: "_blank"}
+                beyondludus
+            %li.twitter
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fab.fa-twitter-square
+              %a{href: "https://twitter.com/healy_dan", target: "_blank"}
+                @healy_dan
+            %li.github
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fab.fa-github-square
+              %a{href: "https://github.com/danhealy", target: "_blank"}
+                danhealy
+            %li.stackoverflow
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fab.fa-stack-overflow
+              %a{href: "https://stackoverflow.com/users/646219/dan-healy", target: "_blank"}
+                dan-healy
+            %li.pdf
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.fas.fa-file-pdf
+              %a{href: "pdf/danhealy_resume.pdf", target: "_blank"}
+                PDF Resume
+            %li.bw-pdf
+              %span.fa-layers.fa-fw.fa-li.fa-2x
+                %i.far.fa-file-pdf
+              %a{href: "pdf/danhealy_resume_bw.pdf", target: "_blank"}
+                PDF Resume (Grayscale)
+
+    .main-content.white-bg.col-12.col-sm-7.col-md-8.col-lg-9
+      .row.no-gutters
+        .col-12.summary
+          %h3 About Me
+          %ul
+            %li Ruby developer since 2007, previously hardware engineer with logic design
+            %li Focus on back-end programming: APIs, data modeling, PostgreSQL, etc
+            %li Proficient with Bootstrap / jQuery front-end web dev, learning React / Vue.js
+            %li Experienced with tvOS front-end dev and Cloud (AWS/GCP) DevOps
+            %li Interested in machine learning and game design
+      .row.no-gutters
+        .col-12.skills
+          %h3 Skills
+          %ul.skills-list
+            %li.ruby.float-left{title: "Ruby"}
+              %a{href: "https://www.ruby-lang.org/en/", target: "_blank"}
+                %i.devicon-ruby-plain
+                %span Ruby
+            %li.rails.float-left{title: "Rails"}
+              %a{href: "https://rubyonrails.org/", target: "_blank"}
+                %i.devicon-rails-plain
+                %span Rails
+            %li.rubymotion.float-left{title: "RubyMotion"}
+              %a{href: "http://www.rubymotion.com/", target: "_blank"}
+                %img.svg-logo{src: items['/images/rubymotion-logo-bw.png'].path}
+                %span RubyMotion
+            %li.aws.float-left{title: "Amazon Web Services"}
+              %a{href: "https://aws.amazon.com/", target: "_blank"}
+                %i.devicon-amazonwebservices-plain
+                %span AWS
+            %li.gcp.float-left{title: "Google Cloud Platform"}
+              %a{href: "https://cloud.google.com/", target: "_blank"}
+                %img.svg-logo{src: items['/images/logo_svg/google-cloud.svg'].path}
+                %span GCP
+            %li.docker.float-left{title: "Docker"}
+              %a{href: "https://www.docker.com/", target: "_blank"}
+                %i.devicon-docker-plain
+                %span Docker
+            %li.kubernetes.float-left{title: "Kubernetes"}
+              %a{href: "https://kubernetes.io/", target: "_blank"}
+                %img.svg-logo{src: items['/images/logo_svg/kubernetes.svg'].path}
+                %span Kubernetes
+            %li.postgresql.float-left{title: "PostgreSQL"}
+              %a{href: "https://www.postgresql.org/", target: "_blank"}
+                %i.devicon-postgresql-plain
+                %span PostgreSQL
+            %li.mongodb.float-left{title: "MongoDB"}
+              %a{href: "https://www.mongodb.com/", target: "_blank"}
+                %i.devicon-mongodb-plain
+                %span MongoDB
+            %li.elasticsearch.float-left{title: "ElasticSearch"}
+              %a{href: "https://www.elastic.co/", target: "_blank"}
+                %img.svg-logo{src: items['/images/logo_svg/elasticsearch.svg'].path}
+                %span ElasticSearch
+            %li.jquery.float-left{title: "jQuery"}
+              %a{href: "https://jquery.com/", target: "_blank"}
+                %i.devicon-jquery-plain
+                %span jQuery
+            %li.html5.float-left{title: "HTML 5"}
+              %a{href: "https://en.wikipedia.org/wiki/HTML5", target: "_blank"}
+                %i.devicon-html5-plain
+                %span HTML 5
+            %li.sass.float-left{title: "Sass"}
+              %a{href: "https://sass-lang.com/", target: "_blank"}
+                %i.devicon-sass-original
+                %span Sass
+            %li.haml.float-left{title: "Haml"}
+              %a{href: "http://haml.info/", target: "_blank"}
+                %img.svg-logo{src: items['/images/logo_svg/haml.svg'].path}
+                %span Haml
+            %li.bootstrap.float-left{title: "Bootstrap"}
+              %a{href: "https://getbootstrap.com/", target: "_blank"}
+                %i.devicon-bootstrap-plain
+                %span Bootstrap
+            %li.apple.float-left{title: "iOS / tvOS"}
+              %a{href: "https://developer.apple.com/ios/", target: "_blank"}
+                %img.svg-logo{src: items['/images/logo_svg/ios.svg'].path}
+                %span iOS / tvOS
+            %li.atom.float-left{title: "Atom"}
+              %a{href: "https://atom.io/", target: "_blank"}
+                %i.devicon-atom-original
+                %span Atom
+        .col-12
+          %p
+            This website was built using Ruby, Nanoc, Bootstrap and Haml.
+            %a.main-text-link{href: "https://github.com/danhealy/danhealy-resume"} Code available on GitHub.
+      .row.no-gutters
+        .col-12
+          %h3 Employment History
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://dutchie.com/", target: "_blank"}
+                %img.employer-logo{src: items['/images/logo_svg/dutchie-logo-bw.svg'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://dutchie.com/"} dutchie
+              %h5.title Senior Software Engineer
+              %h6.years 2019 - Present
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://qualified.io/", target: "_blank"}
+                %img.employer-logo{src: items['/images/logo_svg/qualified-icon-black.svg'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://qualified.io/"} Qualified.io
+              %h5.title Senior API Developer
+              %h6.years 2019
+              %p.description
+                Responsible for features and maintenance of existing Rails API back-end. Implemented fast ElasticSearch bulk reindexing task; AngularJS 1.7 front-end and back-end work to integrate
+                %a.main-text-link{href: "https://www.bamboohr.com/applicant-tracking/", target: "_blank"} Bamboo HR's ATS
+                with the programming assessment lifecycle.
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://www.crunchbase.com/organization/thrillcall", target: "_blank"}
+                %img.employer-logo{src: items['/images/thrillcall_bw.png'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://www.crunchbase.com/organization/thrillcall", target: "_blank"} Thrillcall
+              %h5.title Developer
+              %h6.years 2010-2018
+              %p.description
+                Thrillcall connects fans with the concerts they're interested in, through a comprehensive listing of events and the ability for users to track the musicians they already like and listen to on social media.
+                %br
+                %br
+                Projects implemented:
+                %ul
+                  %li The main API for event data, consumed by mobile apps and external customers including Myspace.
+                  %li
+                    Apple TV app using RubyMotion and
+                    %a.main-text-link{href: "https://developer.apple.com/documentation/tvml"} Apple's TVML.
+                  %li Automated API and Web data incorporation for ~25 event/ticketing sources including StubHub.
+                  %li
+                    Data pipeline using
+                    %a.main-text-link{href: "https://aws.amazon.com/sqs/"} AWS SQS
+                    and
+                    %a.main-text-link{href: "https://aws.amazon.com/dynamodb/"} DynamoDB
+                    for long term storage of realtime ticket pricing, database contained 3 billion pricing records as of mid 2018.
+                  %li Integrations with ~10 third-party services including Spotify to match users' listening data with their favorite artists on our site.
+                  %li Social integrations including Facebook Canvas page tab for listing events, and a Hootsuite-like product for Artists and Venues to promote events across multiple social platforms.
+                  %li Various front-end tasks including music service connections, responsive redesign for the Event web page, SEO, and admin tooling. Worked closely with designers on all front-end heavy projects.
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://en.wikipedia.org/wiki/Pillar_Data_Systems", target: "_blank"}
+                %img.employer-logo{src: items['/images/pillar_bw.png'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://en.wikipedia.org/wiki/Pillar_Data_Systems"} Pillar Data Systems
+              %h5.title FPGA & Firmware Engineer
+              %h6.years 2006-2009
+              %p.description
+                Responsible for the design and implementation of FPGA-based systems, including Verilog module design and related firmware in C++.
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://www.aviationsystemsdivision.arc.nasa.gov/research/foundations/index.shtml", target: "_blank"}
+                %img.employer-logo{src: items['/images/nasa_bw.png'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://www.aviationsystemsdivision.arc.nasa.gov/research/foundations/index.shtml"} NASA Ames Research Center
+              %h5.title Software Development Assistant (Internship)
+              %h6.years 2005
+              %p.description
+                Assisted with various tasks on a large Air Traffic Management software project, using ANSI C.
+      .row.no-gutters
+        .col-12.school
+          %h3 Education
+          .row.no-gutters.employer-row
+            .col-2.col-sm-4.col-md-2.employer-logo-column
+              %a{href: "https://www.ucsc.edu/", target: "_blank"}
+                %img.employer-logo{src: items['/images/ucsc_bw.png'].path}
+            .col-10.col-sm-8.col-md-10
+              %h4.name
+                %a.main-text-link{href: "https://www.ucsc.edu/"} UC Santa Cruz
+              %p.title B.S. Computer Engineering

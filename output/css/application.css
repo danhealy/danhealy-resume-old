@@ -1,0 +1,40 @@
+/*
+$color-lightest: #FBF8F3;
+$color-darkest: #271511;
+$color-main-accent: #EC0042;
+$color-secondary-accent: #741A1A;
+$color-tertiary-accent: #D6A68F;
+*/
+@import url(bootstrap.css);
+/*
+$color-lightest: #FBF8F3;
+$color-darkest: #271511;
+$color-main-accent: #EC0042;
+$color-secondary-accent: #741A1A;
+$color-tertiary-accent: #D6A68F;
+*/
+body { font-family: 'Montserrat', sans-serif; }
+
+h1, h2 { font-family: 'Oswald', sans-serif; }
+
+.main-accent-bg { background-color: #00494D; }
+
+.main-accent { color: #00494D; }
+
+.lightest-bg { background-color: #fff9e4; }
+
+.lightest { color: #fff9e4; }
+
+.darkest-bg { background-color: #17282F; }
+
+.darkest { color: #17282F; }
+
+.secondary-accent-bg { background-color: #F39C12; }
+
+.secondary-accent { color: #F39C12; }
+
+.tertiary-accent-bg { background-color: #b2b8ac; }
+
+.tertiary-accent { color: #b2b8ac; }
+
+html { font-size: 62.5%; }
